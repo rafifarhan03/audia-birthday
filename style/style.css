@@ -38,7 +38,7 @@ body {
 }
 
 .one {
-  font-size: 4.5rem;
+  font-size: 4rem;
 }
 
 .one > img {
@@ -286,8 +286,8 @@ body {
   }
 
   .six .hat {
-    width: 45px;
-    top: 78px;
+    width: 40px;
+    top: 65px;
   }
 
   .wish-hbd {
