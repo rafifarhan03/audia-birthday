@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="style/style.css">
 </head>
 
-<audio id="bgMusic" controls:false autoplay>
+<audio id="bgMusic" controls:false>
   <source src="audiaa.mp3" type="audio/mp3"> 
 </audio>
   
@@ -136,6 +136,7 @@
     let music = document.getElementById("bgMusic");
     music.loop = true;
     music.volume = 0.5;
+    music.autoplay = true;
   </script>
 </body>
 
